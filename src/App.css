@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+ul > li.active {
+  background-color: black !important;
+  border: none !important;
+}
+nav > ul > li.active a {
+  background-color: black !important;
+  border: none !important;
+}
